@@ -16,7 +16,7 @@ process.env.NODE_ENV = 'development';
 
 module.exports = {
   mode: 'development',
-  entry: resolveAppPath('src'),
+  entry: resolveAppPath('test'),
   output: {
     filename: 'static/js/bundle.js',
   },
